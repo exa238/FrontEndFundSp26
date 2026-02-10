@@ -1,66 +1,107 @@
 <!DOCTYPE html>
 <!-- you will declare the doctype at the top every time-->
- <html> 
-    <head>
-        <title> my super awesome website! </title>
-    </head>
-    <body>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Emily Anderson">
+    <meta name="description" content="An informational webpage about the animated-adventure show, She-Ra.">
+    <meta name="keywords" content="She-Ra and the Princesses of Power, Netflix, Cartoon, Superheroes, LGBTQ">
+    <title>All About She-Ra and the Princesses of Power</title>
+    <!-- link your css file here -->
+    <link rel="stylesheet" href="she-ra.css">
+    <!-- link your font here -->
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <!-- navigation starts here -->
+        <ul class = "nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#characters">Characters</a></li>
+            <li><a href="#plot">Plot</a></li>
+            <li><a href="#similar-shows">Similar Shows</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+        </ul>
+    </nav>
+    <!-- home section -->
+    <section id="home">
         <header>
-            <h1>My awesome website</h1>
-            <nav>
-                <a href="#Section1"></a>
-                <a href="#Section2"></a>
-                <a href="#Section3"></a>
-            </nav>
-        </header>
+            <h1>She-Ra and the Princesses of Power</h1>
+            <p>Adora us the lead character of <a href ="https://en.wikipedia.org/wiki/She-Ra_and_the_Princesses_of_Power" target="_blank"> She-Ra and the Princesses of Power</a>,
+            an animated series that debuted in 2018.
+            </p>
+            </header>
+            
+    </section>
 
-        <main>
-            <section id="Section2">
-            <section>
-                <h2>Second Header</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione blanditiis quis aperiam rem cumque aut amet voluptatum explicabo recusandae quos. Harum ex deserunt perferendis temporibus ullam. Aliquam eligendi rem obcaecati?</p>
-
-            </section>
-            <section>
-                <h3>What's For Dinner?</h3>
-                <ol>
-                    <li>Soup</li>
-                    <li>Salad</li>
-                    <li>Bread</li>
-                </ol>
-            </section>
-            <section>
-                <h3>What's For Dessert?</h3>
-                <ul>
-                    <li>Brownies</li>
-                    <li>Pie</li>
-                        <li>Cherry</li>
-                        <li>Blueberry</li>
-                        <li>Apple</li>
-                    <li>Ice Cream</li>
-                </ul>
-            </section>
-            <section>
-                <h4>Inline Tags</h4>
-                <p> This is a <strong>strong</strong> statement</p>
-                <p>This is an <em>emphasis</em> tag</p>
-                <p> This is a <b>bold</b>ed statement</p>
-                <p> This is a <i>italicized</i> statement</p>
-                <p> This links connects to <a> href="http://www.miami.edu"> miami.edu</a> This link is an absolute link</p>
-                <p>This <a href="page2.html"> link </a>that goes to page 2</p>
-                <p>This is a relative link that goes to our <a href="images/penne_outfit.png" target="_blank"> image</a></p>
+    <main>
+        <!-- plot section -->
+        <section id="plot">
+            <h2>Plot</h2>
+            <p>She-Ra and the Princesses of Power is a reboot of the popular 80s original cartoon. The show follows
+            Afora, a Horde soldier who discovers a magic sword, transforming her into the <em>legendary</em> warrior She-Ra.
+            After learning the Horde is <em>evil</em>, she joins the Rebellion, uniting magical princesses to fight for Etheria
+            while facing her former best friend, Catra.
+            </p>
+        </section>
 
 
-            </section>
+        <!-- character section -->
+        <section id ="characters">
+            <h3>Main Characters</h3>
+            <ul>
+                <li>Adora voiced by Aimee Carrero</li>
+                <li>Glimmer voiced by Karen Fukuhara</li>
+                <li>Bow voiced by Marcus Scribner</li>
+                <li>Catra voiced by AJ Michalka</li>
+                <li>Hordak voiced by Keston John</li>
+            </ul>
+        </section>
+
+        <!-- similar shows section -->
+        <section id="similar-shows">
+            <h4>Similar Shows</h4>
+            <p>*Shows are listed by order of relevance</p>
+            <ol>
+                <li><a href="https://en.wikipedia.org/wiki/The_Mighty_Nein" target="_blank"></a>The Mighty Nein</li>
+                <li><a href="https://en.wikipedia.org/wiki/Dragon_Age:_Absolution" target="_blank"></a> Dragon Age: Absolution</li>
+                <li><a href="https://en.wikipedia.org/wiki/Steven_Universe" target="_blank"></a> Steven Universe</li>
+                <li><a href="https://en.wikipedia.org/wiki/Jentry_Chau_vs._The_Underworld" target="_blank"></a>Jentry Chau vs. The Underworld</li>
+            </ol>
+        </section>
+
+        <section id="gallery">
+            <h4>Gallery</h4>
+            <div class="gallery-container">
+                <div class="gallery">
+                        <!-- include all of the images here -->
+                    <img src="images/adora_unicorn.png" alt="Adora in her She-Ra form hugs her unicorn, Swift Wind." height="300">
+                    <img src="images/bow_adora_glimmer.png" alt="Adora, Bow, and Glimmer hug eachother as they smile." height="300">
+                    <img src="images/catra.png" alt="Catra smirks mischievously within the Horde." height="300">
+                    <img src="images/catradora.png" alt="Catra and Adora sit together, looking away from eachother solemnly. Catra looks upset and has her arms crossed against the top of her bent legs." height="300">
+                    <img src="images/catradora_enemies.png" alt="Catra grips the front of Adora's shirt as they look at eachother in anger." height="300">
+                    <img src="images/catradora_love.png" alt="Forehead to forehead, Catra and Adora hold one another as Catra gazes at Adora with love in her eyes. Adora's eyes are closed as they grip Catra's hands." height="300">
+                    <img src="images/she-ra.png" alt="Mara and She-ra stand next to one another in their superhero forms." height="300">
+                    <img src="images/shera_friends.png" alt="Adora, as She-ra, Perfuma, Glimmer, Mermista, and Frosta stand together, cheering with excitement." height="300">
+                </div>
+            </div>
+        </section>
                 
         
-        </main>
+    </main>
 
-        <footer></footer>
+    <footer>
+        <p>
+            Emily Anderson is a senior Computer Science and Motion Pictures major at University of Miami. 
+            She is from Miami, Florida and currently resides there as well. 
+            She is passionate about all things entertainment.
+        </p>
+            
+    </footer>
 
-        <!-- <div></div> -->
-
-    </body>
+</body>
 
 
- </html>
+</html>
