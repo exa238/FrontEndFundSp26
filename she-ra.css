@@ -146,10 +146,10 @@ ol li{
     padding-left: 20px;
 }
 nav a:hover{
-    color: #bde0fe;
+    color: #cdb4db;
     text-decoration: none;
 }
 a:hover{
-    color: #cdb4db;
+    color: #ffd400;
     text-decoration: none;
 }
