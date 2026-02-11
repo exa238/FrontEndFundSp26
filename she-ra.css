@@ -7,7 +7,7 @@
 body{
     font-family: 'Press Start 2P' , sans-serif;
     font-size: 14px;
-    background-color: 	#ffc8dd;
+    background-color: 	#FF99C0;
     color: white;
     padding-bottom: 20px;
 }
@@ -103,7 +103,7 @@ p{
 footer{
     padding: 20px;
     text-align: center;
-    background-color: #ffafcc;
+    background-color: #ffc8dd;
     margin-left: 20px;
     margin-right: 20px;
     position: relative;
@@ -122,7 +122,7 @@ html{
     scroll-behavior: smooth;
 }
 h1, h2, h3, h4{
-    background-color: linear-gradient(to right #ffafcc, #a2d2ff);
+    background: linear-gradient(to right, #BDE0FE, #ffd400);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 20px;
