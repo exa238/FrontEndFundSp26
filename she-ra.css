@@ -1,3 +1,4 @@
+/* you can insert your font family using the @import url(); and you include the link to the font within the parentheses */
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +12,6 @@ body{
     color: white;
     padding-bottom: 20px;
 }
-
 main{
     padding-left: 20px;
 }
@@ -37,6 +37,51 @@ nav a{
     color: white;
     text-decoration: none;
     padding: 5px 15px;
+}
+.grid-1{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 25px;
+    padding: 20px;
+    margin: 40px 20px;
+    background-color: #ffafcc;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #fff6cc;
+}
+.grid-1-item{
+    background: #cdb4db;
+    padding: 20px;
+    border-radius: 12px;
+    border: 3px solid #ffafcc;
+    box-shadow: 0 0 10px #fff6cc;
+    transition: transform 0.3s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.grid-1-item:hover{
+    transform: scale(1.05);
+}
+.grid-1-item.main-box{
+    grid-row: span 2;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 20px;
+    margin: 40px 20px;
+    padding: 20px;
+    background-color: #ffafcc;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #BDE0FE;
+}
+
+.grid-2 div{
+    background: #cdb4db;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid #ffc8dd;
 }
 
 a{
