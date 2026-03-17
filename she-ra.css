@@ -155,6 +155,7 @@ footer{
     border: 3px solid transparent;
     animation: neonBorder 1.5s infinite alternate;
 }
+
 @keyframes neonBorder {
     0%{
         box-shadow: 0 0 10px #fff6cc, 0 0 10px #fff6cc, 0 0 15px #fff6cc, 0 0 20px #fff6cc;
@@ -197,4 +198,59 @@ nav a:hover{
 a:hover{
     color: #ffd400;
     text-decoration: none;
+}
+
+
+/* mobile adjustments */
+@media (max-width: 768px) {
+
+    .nav-menu{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav-menu li{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-menu a{
+        display: block;
+        width: 100%;
+        padding: 12px 0;
+    }
+
+    .grid-1{
+        grid-template-columns: 1fr;
+    }
+
+    .grid-1-item.main-box{
+        grid-row: span 1;
+    }
+
+    .grid-2{
+        grid-template-columns: 1fr;
+    }
+
+    .gallery img{
+        height: 200px;
+    }
+
+    main{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .grid-1,
+    .grid-2{
+        margin: 20px 10px;
+        padding: 15px;
+    }
+
+    footer{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
