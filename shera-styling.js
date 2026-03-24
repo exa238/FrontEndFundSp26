@@ -9,6 +9,12 @@ button.addEventListener("click", () =>{
     text.innerHTML = "Dark mode toggled!";
 });
 
+let textButton = document.getElementById("text-button");
+
+textButton.addEventListener("click", () =>{
+    document.body.style.fontSize = "24px";
+    text.innerHTML = "Text size increased!";
+});
 
 
 // button.addEventListener("click", () =>{
