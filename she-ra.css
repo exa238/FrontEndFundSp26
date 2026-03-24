@@ -199,7 +199,10 @@ a:hover{
     color: #ffd400;
     text-decoration: none;
 }
-
+.dark-mode{
+    background-color: #004A8F;
+    color: white;
+}
 
 /* mobile adjustments */
 @media (max-width: 768px) {
