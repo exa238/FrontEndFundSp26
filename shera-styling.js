@@ -16,6 +16,13 @@ textButton.addEventListener("click", () =>{
     text.innerHTML = "Text size increased!";
 });
 
+let revertButton = document.getElementById("revert-button");
+
+revertButton.addEventListener("click", () =>{
+    document.body.style.fontSize = "16px";
+    text.innerHTML = "Text size reverted!";
+});
+
 
 // button.addEventListener("click", () =>{
 //     text.innerHTML = "Theme activated!";
